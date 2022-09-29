@@ -56,8 +56,70 @@ siga nossas redes sociais:
 </div>
 </header>
 <main id=conteudo>
-<article id=img></article><article><b><h2>Contato</h2>
-</b></article>
+<article id=img></article><form action="phpmailer/form.php" method=post><b><h2>Contato</h2>
+</b><h1 id=fontcolor>Entre em contato:</h1>
+<form method=post action=../daarearj/phpmailer/form.php>
+<fieldset>
+<legend>Dados Pessoais</legend>
+<p>
+<label for=nome>Nome</label>
+<input type=text name=nome placeholder="Nome Completo" required>
+</p>
+<p>
+<label for=email>E-mail</label>
+<input type=email name=email placeholder="E-mail válido" required>
+</p>
+<p>
+<label for=tel>Telefone</label>
+<input type=tel name=tel>
+</p>
+</fieldset>
+<fieldset>
+<legend>Dados adicionais:</legend>
+<p>
+<label for=estado>Estado</label>
+<select name=estado>
+<option value=ac>Acre</option>
+<option value=al>Alagoas</option>
+<option value=ap>Amapá</option>
+<option value=am>Amazonas</option>
+<option value=ba>Bahia</option>
+<option value=ce>Ceará</option>
+<option value=df>Distrito Federal</option>
+<option value=es>Espírito Santo</option>
+<option value=go>Goiás</option>
+<option value=ma>Maranhão</option>
+<option value=mt>Mato Grosso</option>
+<option value=ms>Mato Grosso do Sul</option>
+<option value=mg>Minas Gerais</option>
+<option value=pa>Pará</option>
+<option value=pb>Paraíba</option>
+<option value=pr>Paraná</option>
+<option value=pe>Pernambuco</option>
+<option value=pi>Piauí</option>
+<option value=rj>Rio de Janeiro</option>
+<option value=rn>Rio Grande do Norte</option>
+<option value=rs>Rio Grande do Sul</option>
+<option value=ro>Rondônia</option>
+<option value=rr>Roraima</option>
+<option value=sc>Santa Catarina</option>
+<option value=sp>São Paulo</option>
+<option value=se>Sergipe</option>
+<option value=to>Tocantins</option>
+</select>
+</p>
+<fieldset>
+<legend>Mande sua mensagem</legend>
+<p>
+<label for=mensagem>Mensagem</label><br>
+<textarea id=caixamsg name=mensagem></textarea>
+</p>
+<p>
+<input type=submit value=enviar>
+</p>
+</fieldset>
+</form>
+</article>
 <aside id=lateral></aside>
 </main>
 <footer><b>Contato:<br>daarearj@gmail.com | +55 (21) 98095-8408</b>
