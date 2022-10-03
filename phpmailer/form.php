@@ -33,9 +33,7 @@ try {
     $mail->isHTML(true);                                  //Set email format to HTML
 	$mail->Subject = 'DARJ - Site';
 	$body = DARJ - Mensagem Cadastro através Site:<br>Nome: $_POST['nome']<br>Email: $_POST['email']<br>Telefone: 
-	$_POST['tel']<br>Estado:
-	$_POST['estado']<br>
-	Mensagem: $_POST['mensagem']  
+	$_POST['tel']<br>Estado: $_POST['estado']<br>Mensagem: $_POST['mensagem']
 	$mail->Body    = $body;
     $mail->send();
     echo 'Cadastro realizado com sucesso';
