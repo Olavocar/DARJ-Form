@@ -4,6 +4,8 @@ body{
     width:100px;
     overflow:hidden;
     align-content:center;
+    background-color:yellow;
+    font-family: 'Gloucester MT Condensed';
 }
 
 table{
@@ -83,8 +85,8 @@ table{
     height:50px;
 }
  .rodape{
-    width:690px;
-    height:200px;
+    width:auto;
+    height:300px;
     margin:auto;
     background-color:black;
     font-size:18px;
