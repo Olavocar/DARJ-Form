@@ -1,5 +1,10 @@
 @charset "utf-8";
 
+#corpo{
+    margin-top:0px;
+    background-color:yellow;
+}
+
 #body{
     width:600px;
     height:100%;
@@ -29,6 +34,10 @@
 
 #margin{
     margin-left:-50px;
+}
+
+#forma{
+    background-color:yellow;
 }
 
 #content{
