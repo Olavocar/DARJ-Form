@@ -26,6 +26,10 @@
     margin-left:2%;
 }
 
+#margin{
+    margin-left:-60px;
+}
+
 #content{
     width:100%
     font-size:18px;
@@ -40,8 +44,8 @@
     color:black;
     font-weight: bold;
     float:left;
-    margin-left:-40px;
 }
+
 #servicos{
     margin-left:2%;
     margin-top:5%;
@@ -63,9 +67,11 @@
     margin-right:0px;
 
 }
+
 #links{
 
 }
+
 #icones{
     width:auto;
     height:auto;
