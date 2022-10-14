@@ -5,6 +5,7 @@ body{
     body:100%;
     overflow:hidden;
     align-content:center;
+    margin-top:0px;
     background-color:yellow;
     font-family: 'Gloucester MT Condensed';
 }
@@ -14,6 +15,7 @@ table{
     height:100%;
     background-color:yellow;
     margin:auto;
+    margin-top:0px;
     overflow:hidden;
 }
 
