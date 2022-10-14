@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+#body{
+    width:400px;
+    height:100%;
+    align-content:center;
+    margin-top:0px;
+    background-color:yellow;
+    font-family: 'Gloucester MT Condensed';
+}
+
+#table{
+    width:100%;
+    height:100%;
+    background-color:yellow;
+    margin-top:0px;
+}
+
+#logo{
+    width:100%;
+    margin-left:2%;
+}
+
+#content{
+    width:100%
+    font-size:18px;
+    font-family: 'Gloucester MT Condensed';
+    color:black;
+}
+
+#titulo{
+    width:100%;
+    font-size:28px;
+    font-family: 'Gloucester MT Condensed';
+    color:black;
+    font-weight: bold;
+    float:left;
+}
+#servicos{
+    margin-left:2%;
+    margin-top:5%;
+    font-size:20px;
+    font-family: 'Gloucester MT Condensed';
+    color:black;
+}
+
+#tabela{
+    width:100%;
+    height:auto;
+    float:right;
+}
+
+#barra{
+    width:100%;
+    height:auto;
+    float:right;
+    margin-right:0px;
+
+}
+#links{
+
+}
+#icones{
+    width:auto;
+    height:auto;
+    display:flex;
+    align-content:space-between;
+}
+
+.content{
+    margin-top:10%x;
+}
+
+#conteudo{
+    width:100%;
+    height:100%;
+    padding-left:10%;
+    margin-top:10%;
+    font-size:18px;
+    font-family: 'Gloucester MT Condensed';
+    color:black;
+    align-content:center;
+}
+
+#head{
+    width:100%;
+    height:10px;
+}
+ .rodape{
+    width:100%;
+    height:10%;
+    background-color:black;
+    font-size:18px;
+    font-family: 'Gloucester MT Condensed';
+    color:yellow;
+}
+
+#rodape{
+    padding-top:2%;
+    margin-left:2%;
+}
