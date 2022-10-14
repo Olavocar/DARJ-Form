@@ -14,6 +14,7 @@
 }
 
 #header{
+    margin-top:0px;
     width:100%
     background-color:yellow;
 }
@@ -27,6 +28,7 @@
 }
 
 #logo{
+    margin-top:0px;
     width:100%;
     margin-left:2%;
 }
@@ -36,10 +38,12 @@
 }
 
 #forma{
+    margin-top:0px;
     background-color:yellow;
 }
 
 #content{
+    margin-top:0px;
     width:100%
     font-size:18px;
     font-family: 'Gloucester MT Condensed';
@@ -65,13 +69,13 @@
 
 #tabela{
     width:100%;
-    height:auto;
+    height:100%;
     float:right;
 }
 
 #barra{
     width:100%;
-    height:auto;
+    height:100%;
     float:right;
     margin-right:0px;
 
