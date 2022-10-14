@@ -2,7 +2,7 @@
 
 body{
     width:100px;
-    body:160px;
+    body:100px;
     overflow:hidden;
     align-content:center;
     margin-top:0px;
@@ -12,7 +12,7 @@ body{
 
 table{
     width:100%;
-    height:160px;
+    height:100px;
     background-color:yellow;
     margin:auto;
     margin-top:0px;
@@ -89,7 +89,7 @@ table{
 }
  .rodape{
     width:auto;
-    height:40px;
+    height:20px;
     margin:auto;
     background-color:black;
     font-size:18px;
