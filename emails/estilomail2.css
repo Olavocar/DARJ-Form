@@ -18,6 +18,7 @@
     height:100%;
     background-color:yellow;
     margin-top:0px;
+    display:flex;
 }
 
 #logo{
