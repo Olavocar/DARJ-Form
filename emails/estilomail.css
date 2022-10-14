@@ -25,6 +25,7 @@
 }
 
 #content{
+    width:100%
     font-size:18px;
     font-family: 'Gloucester MT Condensed';
     color:black;
@@ -46,15 +47,14 @@
 }
 
 #tabela{
-    width:auto;
+    width:100%;
     height:auto;
     float:right;
 }
 
 #barra{
-    width:auto;
+    width:100%;
     height:auto;
-    margin:auto;
     float:right;
     margin-right:0px;
 
@@ -86,7 +86,7 @@
 
 #head{
     width:100%;
-    height:100%;
+    height:10px;
 }
  .rodape{
     width:100%;
