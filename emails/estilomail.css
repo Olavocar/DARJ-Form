@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 #body{
-    width:auto;
+    width:600px;
     body:100px;
     overflow:hidden;
     align-content:center;
@@ -90,12 +90,10 @@
  .rodape{
     width:700px;
     height:100px;
-    margin:auto;
     background-color:black;
     font-size:18px;
     font-family: 'Gloucester MT Condensed';
     color:yellow;
-    align-content:center;
 }
 
 #rodape{
