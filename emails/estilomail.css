@@ -1,12 +1,7 @@
 @charset "utf-8";
 
-#corpo{
-    margin-top:0px;
-    background-color:yellow;
-}
-
 #body{
-    width:400px;
+    width:500px;
     height:100%;
     margin-top:0px;
     background-color:yellow;
@@ -20,7 +15,7 @@
 }
 
 #table{
-    width:400px;
+    width:500px;
     height:100%;
     background-color:yellow;
     margin-top:0px;
@@ -70,13 +65,13 @@
 }
 
 #tabela{
-    width:400px;
+    width:500px;
     height:300px;
     float:right;
 }
 
 #barra{
-    width:400;
+    width:500px;
     height:300px;
     float:right;
     margin-left:-100px;
@@ -115,7 +110,7 @@
     height:10px;
 }
  .rodape{
-    width:400px;
+    width:500px;
     height:50px;
     background-color:black;
     font-size:18px;
